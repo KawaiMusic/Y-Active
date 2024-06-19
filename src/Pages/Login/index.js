@@ -17,7 +17,7 @@ function Login(){
     <div className="divSplash">
   <img src={Logo} alt="YawActiveLogo" className="logo" />
 
-        <form>
+        <form className="form">
        <label>
             Email
         </label>
