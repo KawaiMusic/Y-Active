@@ -1,8 +1,10 @@
+import Logo from './Logo.png'
+
 function Splashart (){
   return(
     <div className="divSplash">
 
-      <h1> Splashart</h1>
+      <img src= {Logo} alt='Logo' className='logo' />
     </div>
 
   )
