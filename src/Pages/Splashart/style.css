@@ -1,0 +1,14 @@
+.divSplash{
+    background-color: #F3541C;
+    color: #F3541C;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    
+    padding: 0;
+    margin:0;
+  
+  }
+
