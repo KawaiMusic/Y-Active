@@ -5,7 +5,7 @@ import React from 'react';
 
 
 
-function Home(){
+function Login(){
   return(
     <div className="divSplash">
         <form>
@@ -20,4 +20,4 @@ function Home(){
 );
 };
 
-export default Home;
+export default Login;

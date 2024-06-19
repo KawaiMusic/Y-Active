@@ -5,6 +5,7 @@ import{ BrowserRouter, Routes , Route} from 'react-router-dom';
     import Splashart from "./Pages/Splashart";
     import Produto from './Pages/Produto';
     import Style from './index.css';
+    import Login from './Pages/Login';
 
 function RoutesApp(){
     return(
@@ -12,7 +13,8 @@ function RoutesApp(){
         <Routes>
             <Route path="/" element={ <Home/>}/>
             <Route path="/Splashart" element={ <Splashart/> }/>      
-            <Route path="/Produto/:id" element={<Produto/>}  />    
+            <Route path="/Produto/:id" element={<Produto/>}  /> 
+            <Route path="/Login" element={<Login/>}  />    
             <Route path="*" element={ <Erro/> }/>            
 
         </Routes>
