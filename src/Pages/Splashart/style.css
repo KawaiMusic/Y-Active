@@ -1,14 +1,8 @@
-.divSplash{
+.divSplasharte{
   display: flex;
-  max-width:max-content;
-}
-.logo{
-  display: flex;
-  width: 250px;
-  height: 250px;
-}
-img{
-  display: flex;
-  width: 250px;
-  height: 250px;
+  flex-direction: column;
+  padding-top: 80%;
+ align-self: center;
+ justify-self: center;
+ max-height: 500px;
 }

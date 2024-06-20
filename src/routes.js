@@ -3,7 +3,7 @@ import{ BrowserRouter, Routes , Route} from 'react-router-dom';
     import Home from "./Pages/Home";
     import Erro from "./Pages/404";
     import Splashart from "./Pages/Splashart";
-    import Produto from './Pages/Produto';
+    import Aportar from './Pages/Aportar';
     import Style from './index.css';
     import Login from './Pages/Login';
 
@@ -13,7 +13,7 @@ function RoutesApp(){
         <Routes>
             <Route path="/" element={ <Home/>}/>
             <Route path="/Splashart" element={ <Splashart/> }/>      
-            <Route path="/Produto/:id" element={<Produto/>}  /> 
+            <Route path="/Aportar" element={<Aportar/>}  /> 
             <Route path="/Login" element={<Login/>}  />    
             <Route path="*" element={ <Erro/> }/>            
 

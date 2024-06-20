@@ -1,11 +1,11 @@
 import Logo from './image.png'
-import style from "./style.css"
+import Style from "./style.css"
 
 function Splashart (){
   return(
-    <div className="divSplash">
+    <div className="divSplasharte">
 
-      <img src= {Logo} alt='Logo' className ='logo' />
+      <img src= {Logo} alt='Logo'/>
     </div>
 
   )

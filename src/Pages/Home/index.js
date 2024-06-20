@@ -16,7 +16,9 @@ function Home(){
   return(
 
 
-<div> <header className="Header">
+<div className="backgroundHome"> 
+  
+  <header className="Header">
         <img src={Imagem} alt="Imagem header" className="Logo"/>
         <img src={Gear} alt="Imagem header" className="Gear"/>
         

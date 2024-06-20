@@ -39,10 +39,7 @@
     background-color: #FE632B;
 
   }
-  h1{
-    background-color: #FE632B;
-    font-weight: 500;
-  }
+
 
   span{
     background-color: #FE632B;
@@ -130,6 +127,11 @@ text{
     font-weight: bold;
   }
  
+  .backgroundHome{
+    background-color: #1b1b1b;
+  }
+
+
 ScrollContainer{
   display: flex;
   flex-direction: row;
