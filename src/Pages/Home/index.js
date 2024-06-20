@@ -3,14 +3,20 @@ import Style from "./style.css";
 import Imagem from './image.png';
 import Logo from './Logo.png';
 import Gear from './gear-128.png'
-import {Image} from 'react';
+import {Image , Text} from 'react';
 import React from 'react';
 import Wallet from '../../Compositions/ph_wallet-thin.png';
 import pix from '../../Compositions/fa6-brands_pix.png';
+import Scrollview from './scrollview.js'
+
+
 
 function Home(){
+    
   return(
-   <div> <header className="Header">
+
+
+<div> <header className="Header">
         <img src={Imagem} alt="Imagem header" className="Logo"/>
         <img src={Gear} alt="Imagem header" className="Gear"/>
         
@@ -36,8 +42,7 @@ function Home(){
 <span>Saldo disponível</span>
 <br/>
 <br/>
-<span className="Saldo">R$145,50 <br/>
--exemplo-</span>      
+<span className="Saldo">R$145,50</span>      
 
     </div><img src={Wallet} alt="Logomarca" className="wallet"/> 
     
@@ -50,17 +55,13 @@ function Home(){
    <br/>
    <br/>
    <br/>
+   
 <div className="ScrollContainer">
-    
-<div className="Minicard">
-
-<img src={pix} alt="Pix" className="pix"/>
-<br/>
-
-<text className="Precisar">Fazer um aporte</text>
-</div>
+<Scrollview></Scrollview>
 
 </div>
+
+
 </div>
     
     
