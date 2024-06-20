@@ -1,18 +1,14 @@
 .divSplash{
-    background-color: #F3541C;
-    color: #F3541C;
-
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    
-    padding: 0;
-    margin:0;
-  
-  }
-
-  .logo{
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  max-width:max-content;
+}
+.logo{
+  display: flex;
+  width: 250px;
+  height: 250px;
+}
+img{
+  display: flex;
+  width: 250px;
+  height: 250px;
+}
